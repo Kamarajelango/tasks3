@@ -1,0 +1,47 @@
+JSON using for loop
+var education = [
+    {
+        collage: "nehru memorial college",
+        yearpassedout : 2020,
+        percentage : 61
+    },
+    {
+        highersecondaryschool: "vinayaga higher secondary school",
+        mark: 940,
+        percentage: 78,
+        yearpassedout: 2017,
+    },
+    {
+        sslcschool: "vinayaga higher secondary school",
+        mark: 419,
+        percentage: 83,
+        yearpassedout: 2015
+    }
+]
+
+
+for( i=0; i<education.length; i++){
+    console.log(education[i])
+}
+
+
+//OUTPUT//
+
+E:\CS Code\JS Code>node sample3.js
+{
+  collage: 'nehru memorial college',
+  yearpassedout: 2020,
+  percentage: 61
+}
+{
+  highersecondaryschool: 'vinayaga higher secondary school',
+  mark: 940,
+  percentage: 78,
+  yearpassedout: 2017
+}
+{
+  sslcschool: 'vinayaga higher secondary school',
+  mark: 419,
+  percentage: 83,
+  yearpassedout: 2015
+}

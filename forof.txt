@@ -1,0 +1,44 @@
+JSON-FOROF LOOP  
+
+var education = [
+    {
+        collage: "nehru memorial college",
+        yearpassedout :2020,
+        percentage :61
+    },
+    {
+        highersecondaryschool: "vinayaga higher secondary school",
+        mark: 940,
+        percentage: 78,
+        yearpassedout: 2017,
+    },
+    {
+        sslcschool: "vinayaga higher secondary school",
+        mark: 419,
+        percentage: 83,
+        yearpassedout: 2015
+    }
+]
+
+for(var i of education){
+    console.log(i)
+}
+
+//OUTPUT:-
+{
+  collage: 'nehru memorial college',
+  yearpassedout: 2020,
+  percentage: 61
+}
+{
+  highersecondaryschool: 'vinayaga higher secondary school',
+  mark: 940,
+  percentage: 78,
+  yearpassedout: 2017
+}
+{
+  sslcschool: 'vinayaga higher secondary school',
+  mark: 419,
+  percentage: 83,
+  yearpassedout: 2015
+}
